@@ -213,3 +213,193 @@ body {
 h1,h2,h3,h4,h5,h6, nav {
 	font-family: 'Libre Franklin', sans-serif;
 }
+
+
+/* FRONT PAGE MOBILE STUFF */
+
+
+@media (min-width: 1500px) {
+
+	.fp-div-container-video {
+		height:100%; 
+		width:100%; 
+		background-color: rgba(0,0,0,0.6); 
+		position: absolute; 
+		top: 0px;
+	}
+
+	.fp-headerh1 {
+		font-size:5rem; 
+		position: absolute; 
+		top: 20%; 
+		left: 3%; 
+		color: white;"
+	}
+
+	.fp-body-intro {
+		font-size:1.5rem; 
+		position: absolute; 
+		top: 31%; 
+		left: 3%; 
+		color: white; 
+		padding: 0.3rem; 
+		width: 60%
+	}
+
+	.fp-buttons-intro {
+		font-size:5rem; 
+		position: absolute; 
+		top: 40%; 
+		left: 3%; 
+		color: white;
+	}
+
+}
+
+@media (min-width: 1750px) {
+
+	.fp-div-container-video {
+		height:100%; 
+		width:100%; 
+		background-color: rgba(0,0,0,0.6); 
+		position: absolute; 
+		top: 0px;
+	}
+
+	.fp-headerh1 {
+		font-size:5rem; 
+		position: absolute; 
+		top: 20%; 
+		left: 3%; 
+		color: white;"
+	}
+
+	.fp-body-intro {
+		font-size:1.5rem; 
+		position: absolute; 
+		top: 31%; 
+		left: 3%; 
+		color: white; 
+		padding: 0.3rem; 
+		width: 60%
+	}
+
+	.fp-buttons-intro {
+		font-size:5rem; 
+		position: absolute; 
+		top: 40%; 
+		left: 3%; 
+		color: white;
+	}
+
+}
+
+
+@media only screen and (max-width: 1749px) and (min-width: 1350px) {
+	.fp-div-container-video {
+		height:100%; 
+		width:100%; 
+		background-color: rgba(0,0,0,0.6); 
+		position: absolute; 
+		top: 0px;
+	}
+
+	.fp-headerh1 {
+		font-size:5rem; 
+		position: absolute; 
+		top: 20%; 
+		left: 3%; 
+		color: white;"
+	}
+
+	.fp-body-intro {
+		font-size:1.5rem; 
+		position: absolute; 
+		top: 34%; 
+		left: 3%; 
+		color: white; 
+		padding: 0.3rem; 
+		width: 60%
+	}
+
+	.fp-buttons-intro {
+		font-size:5rem; 
+		position: absolute; 
+		top: 50%; 
+		left: 3%; 
+		color: white;
+	}
+}
+
+@media only screen and (max-width: 1349px) and (min-width: 1200px) {
+	.fp-div-container-video {
+		height:100%; 
+		width:100%; 
+		background-color: rgba(0,0,0,0.6); 
+		position: absolute; 
+		top: 0px;
+	}
+
+	.fp-headerh1 {
+		font-size:5rem; 
+		position: absolute; 
+		top: 20%; 
+		left: 3%; 
+		color: white;"
+	}
+
+	.fp-body-intro {
+		font-size:1.5rem; 
+		position: absolute; 
+		top: 38%; 
+		left: 3%; 
+		color: white; 
+		padding: 0.3rem; 
+		width: 60%
+	}
+
+	.fp-buttons-intro {
+		font-size:5rem; 
+		position: absolute; 
+		top: 62%; 
+		left: 3%; 
+		color: white;
+	}
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 1000px) {
+	.fp-div-container-video {
+		height:100%; 
+		width:100%; 
+		background-color: rgba(0,0,0,0.6); 
+		position: absolute; 
+		top: 0px;
+	}
+
+	.fp-headerh1 {
+		font-size:5rem; 
+		position: absolute; 
+		top: 20%; 
+		left: 3%; 
+		color: white;"
+	}
+
+	.fp-body-intro {
+		display: none;
+		font-size:1.5rem; 
+		position: absolute; 
+		top: 38%; 
+		left: 3%; 
+		color: white; 
+		padding: 0.3rem; 
+		width: 60%
+	}
+
+	.fp-buttons-intro {
+		font-size:5rem; 
+		position: absolute; 
+		top: 62%; 
+		left: 3%; 
+		color: white;
+	}
+}
