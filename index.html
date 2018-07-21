@@ -1,0 +1,635 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin|Montserrat|Open+Sans|PT+Sans|Roboto" rel="stylesheet">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Bywire.news: Innovative News and Media Platform</title>
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid px-0">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+          <div class="container">
+            <a class="navbar-brand pt-1" href="#"><img src="logo-alt.png" alt="Bywire logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Videos</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Podcasts
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Wirebits</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Login</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Account
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Wallet</a>
+                    <a class="dropdown-item" href="#">TOP UP</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">My details</a>
+                  </div>
+                </li>
+              </ul>
+              <form class="form-inline">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search anything..." aria-label="Search anything" aria-describedby="basic-addon1">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1"><i class="fas fa-search"></i></span>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+      </div>
+      </nav>
+      </div>
+    </header>
+    <div class="container-fluid px-0">
+    <div id="parent-container" style="position: relative;" class="d-none d-md-block">
+      <div id="video-container" style="z-index: -1">
+        <video autoplay loop muted style="width: 100%; height: 100%">
+          <source id="mp4" src="tv.mp4" type="video/mp4">
+          <p>Your user agent does not support HTML 5...You old fam!</p>
+        </video>
+      </div>
+      <div style="height:100%; width:100%; background-color: rgba(0,0,0,0.6); position: absolute; top: 0px;" >
+        <p class="d-none d-md-block" style="font-size:5rem; position: absolute; top: 20%; left: 3%; color: white;">Decentralised News Network
+        </p>
+        <p class="" style="font-size:1.5rem; position: absolute; top: 31%; left: 3%; color: white; padding: 0.3rem; width: 60%">
+          ByWire exists to solve the funding crisis in media in order to help bring truth to the world; by freeing users, creators and publishers from the constraints of advertising and government funding by utilising the latest decentralising blockchain technology.
+        </p>
+        <p class="d-none d-md-block" style="font-size:5rem; position: absolute; top: 40%; left: 3%; color: white;">
+          <a href="#" class="btn btn-outline-danger white"><i class="fas fa-globe"></i> Breaking news</a>  <a href="#" class="btn btn-outline-success white"><i class="fas fa-bullhorn"></i> Trending news</a> <a href="#" class="btn btn-outline-info white"><i class="fab fa-medapps"></i> News just for you</a> <a href="#" class="btn btn-outline-warning white"><i class="far fa-hand-rock"></i> Take editorial control</a>
+        </p>
+      </div>
+    </div>
+    <section>
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-md-12 p-5 text-center">
+            <h1><a href="#">Breaking News</a><span class="tiny"><a href="#"><i class="fas fa-sync-alt"></i></a></span></h1>
+            <p></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md p-3 breakings-news-1">
+            <div class="container-image-overlay">
+              <img src="images/image1.jpg" class="img-fluid">
+              <div class="overlay">David Davis brands use of child spies ‘morally repugnant’</div>
+              <div class="overlay-dynamic">
+                <div class="text">David Davis, the Tory former cabinet minister, has branded recruitment of child spies “morally repugnant”, as he led politicians and human rights groups in condemnation of police and intelligence agencies’ use of the tactic.
+                  <br/><br/>
+                  The recruitment of children as so-called covert human intelligence sources (CHIS) emerged this week after a House of Lords committee raised the alarm over proposals to loosen restrictions surrounding it.
+                  <br /><br />
+                  <span class="d-none d-md-block">The secondary legislation committee reported that Ben Wallace, the home office security minister, had informed it...
+                  <br /><br /></span>
+                  <a href="#" class="btn btn-danger btn-sm white"><i class="fab fa-readme"></i> Continue reading</a> <a href="#" class="btn btn-outline-warning btn-sm white"><i class="far fa-smile-beam"></i></a> <a href="#" class="btn btn-outline-warning btn-sm white"><i class="far fa-meh-rolling-eyes"></i></a> <a href="#" class="btn btn-outline-warning btn-sm white"><i class="far fa-frown-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="px-1"></div>
+          <div class="col-sm-12 mobile-my-1 col-md p-3 breakings-news-2">
+            <div class="container-image-overlay">
+              <img src="images/image2.jpg" class="img-fluid">
+              <div class="overlay">Barnier dismisses Theresa May's Brexit white paper demands</div>
+              <div class="overlay-dynamic">
+                <div class="text">The EU’s chief Brexit negotiator, Michel Barnier, has forensically picked apart Theresa May’s white paper after a meeting of the EU27, warning that the prime minister had failed to offer Brussels a firm basis for the negotiations.
+                  <br/><br/>
+                  In a reflection of the widespread concern about the stability of May’s premiership, Barnier said he would be polite, but went on to illustrate in stark terms how the UK’s demands fell foul of the EU’s red lines and founding principles.
+                  <br /><br />
+                  <span class="d-none d-md-block">“I am not negotiating, of course, on the basis of the white paper,” Barnier concluded, after a three-hour meeting of EU ministers in Brussels.
+                  <br /><br /></span>
+                  <a href="#" class="btn btn-danger btn-sm white"><i class="fab fa-readme"></i> Continue reading</a> <a href="#" class="btn btn-outline-warning btn-sm white"><i class="far fa-smile-beam"></i></a> <a href="#" class="btn btn-outline-warning btn-sm white"><i class="far fa-meh-rolling-eyes"></i></a> <a href="#" class="btn btn-outline-warning btn-sm white"><i class="far fa-frown-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="px-1"></div>
+          <div class="col-sm-12 col-md p-3 breakings-news-3">
+            <div class="container-image-overlay">
+              <img src="images/image1.jpg" class="img-fluid">
+              <div class="overlay">Michael Cohen recorded Trump discussing payment to Playboy model – report</div>
+              <div class="overlay-dynamic">
+                <div class="text">Donald Trump was secretly recorded two months before the 2016 election discussing a potential payoff to a former Playboy model who claimed she had an affair with him, it was reported on Friday.
+                  <br/><br/>
+                  The New York Times reported that Trump’s longstanding personal lawyer, Michael Cohen, taped the conversation, and the recording was seized this year by the FBI during a raid on Cohen’s office.
+                  <br /><br />
+                  <span class="d-none d-md-block">Cohen’s role is being investigated by the Department of Justice, which is considering whether federal campaign finance laws were breached.
+                  <br /><br /></span>
+                  <a href="#" class="btn btn-danger btn-sm white"><i class="fab fa-readme"></i> Continue reading</a> <a href="#" class="btn btn-outline-warning btn-sm white"><i class="far fa-smile-beam"></i></a> <a href="#" class="btn btn-outline-warning btn-sm white"><i class="far fa-meh-rolling-eyes"></i></a> <a href="#" class="btn btn-outline-warning btn-sm white"><i class="far fa-frown-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 p-5 text-center ">
+            <h1><a href="#">Trending</a><span class="tiny"><a href="#"><i class="fas fa-sync-alt"></i></a></span></h1>
+            <p></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md p-3 ">
+            <div class="container-image-overlay">
+              <img src="images/image4.jpg" class="img-fluid">
+              <div class="overlay">Michael Cohen recorded Trump discussing payment to Playboy model – report</div>
+              <div class="overlay-dynamic">
+                <div class="text">The EU’s chief Brexit negotiator, Michel Barnier, has forensically picked apart Theresa May’s white paper after a meeting of the EU27, warning that the prime minister had failed to offer Brussels a firm basis for the negotiations.
+                  <br/><br/>
+                  In a reflection of the widespread concern about the stability of May’s premiership, Barnier said he would be polite, but went on to illustrate in stark terms how the UK’s demands fell foul of the EU’s red lines and founding principles.
+                  <br /><br />
+                  <span class="d-none d-md-block">“I am not negotiating, of course, on the basis of the white paper,” Barnier concluded, after a three-hour meeting of EU ministers in Brussels.
+                  <br /><br /></span>
+                  <a href="#" class="btn btn-danger btn-sm white"><i class="fab fa-readme"></i> Continue reading</a> <a href="#" class="btn btn-outline-warning btn-sm white"><i class="far fa-smile-beam"></i></a> <a href="#" class="btn btn-outline-warning btn-sm white"><i class="far fa-meh-rolling-eyes"></i></a> <a href="#" class="btn btn-outline-warning btn-sm white"><i class="far fa-frown-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="px-1"></div>
+          <div class="col-sm-12 mobile-my-1 col-md p-3 ">
+            <div class="container-image-overlay">
+              <img src="images/image5.jpg" class="img-fluid">
+              <div class="overlay">Michael Cohen recorded Trump discussing payment to Playboy model – report</div>
+              <div class="overlay-dynamic">
+                <div class="text">The EU’s chief Brexit negotiator, Michel Barnier, has forensically picked apart Theresa May’s white paper after a meeting of the EU27, warning that the prime minister had failed to offer Brussels a firm basis for the negotiations.
+                  <br/><br/>
+                  In a reflection of the widespread concern about the stability of May’s premiership, Barnier said he would be polite, but went on to illustrate in stark terms how the UK’s demands fell foul of the EU’s red lines and founding principles.
+                  <br /><br />
+                  <span class="d-none d-md-block">“I am not negotiating, of course, on the basis of the white paper,” Barnier concluded, after a three-hour meeting of EU ministers in Brussels.
+                  <br /><br /></span>
+                 <a href="#" class="btn btn-danger btn-sm white"><i class="fab fa-readme"></i> Continue reading</a> <a href="#" class="btn btn-outline-warning btn-sm white"><i class="far fa-smile-beam"></i></a> <a href="#" class="btn btn-outline-warning btn-sm white"><i class="far fa-meh-rolling-eyes"></i></a> <a href="#" class="btn btn-outline-warning btn-sm white"><i class="far fa-frown-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="px-1"></div>
+          <div class="col-sm-12 col-md p-3 ">
+            <div class="container-image-overlay">
+              <img src="images/image6.jpg" class="img-fluid">
+              <div class="overlay">Michael Cohen recorded Trump discussing payment to Playboy model – report</div>
+              <div class="overlay-dynamic">
+               <div class="text">The EU’s chief Brexit negotiator, Michel Barnier, has forensically picked apart Theresa May’s white paper after a meeting of the EU27, warning that the prime minister had failed to offer Brussels a firm basis for the negotiations.
+                  <br/><br/>
+                  In a reflection of the widespread concern about the stability of May’s premiership, Barnier said he would be polite, but went on to illustrate in stark terms how the UK’s demands fell foul of the EU’s red lines and founding principles.
+                  <br /><br />
+                  <span class="d-none d-md-block">“I am not negotiating, of course, on the basis of the white paper,” Barnier concluded, after a three-hour meeting of EU ministers in Brussels.
+                  <br /><br /></span>
+                  <a href="#" class="btn btn-danger btn-sm white"><i class="fab fa-readme"></i> Continue reading</a> <a href="#" class="btn btn-outline-warning btn-sm white"><i class="far fa-smile-beam"></i></a> <a href="#" class="btn btn-outline-warning btn-sm white"><i class="far fa-meh-rolling-eyes"></i></a> <a href="#" class="btn btn-outline-warning btn-sm white"><i class="far fa-frown-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 p-5 text-center">
+            <h1><a href="#">News just for you</a><span class="tiny"><a href="#"><i class="fas fa-sync-alt"></i></a></span></h1>
+            <p></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md p-3 ">
+            <div class="container-image-overlay">
+              <img src="images/image3.jpg" class="img-fluid">
+              <div class="overlay">Michael Cohen recorded Trump discussing payment to Playboy model – report</div>
+              <div class="overlay-dynamic">
+               <div class="text">The EU’s chief Brexit negotiator, Michel Barnier, has forensically picked apart Theresa May’s white paper after a meeting of the EU27...
+                  <br/><br/>
+                  <a href="#" class="btn btn-danger btn-sm white"><i class="fab fa-readme"></i> Continue reading</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md p-3 ">
+            <div class="container-image-overlay">
+              <img src="images/image3.jpg" class="img-fluid">
+              <div class="overlay">Michael Cohen recorded Trump discussing payment to Playboy model – report</div>
+              <div class="overlay-dynamic">
+               <div class="text">The EU’s chief Brexit negotiator, Michel Barnier, has forensically picked apart Theresa May’s white paper after a meeting of the EU27...
+                  <br/><br/>
+                  <a href="#" class="btn btn-danger btn-sm white"><i class="fab fa-readme"></i> Continue reading</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+         <div class="col-sm-12 col-md p-3 ">
+            <div class="container-image-overlay">
+              <img src="images/image3.jpg" class="img-fluid">
+              <div class="overlay">Michael Cohen recorded Trump discussing payment to Playboy model – report</div>
+              <div class="overlay-dynamic">
+               <div class="text">The EU’s chief Brexit negotiator, Michel Barnier, has forensically picked apart Theresa May’s white paper after a meeting of the EU27...
+                  <br/><br/>
+                  <a href="#" class="btn btn-danger btn-sm white"><i class="fab fa-readme"></i> Continue reading</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+         <div class="col-sm-12 col-md p-3 ">
+            <div class="container-image-overlay">
+              <img src="images/image3.jpg" class="img-fluid">
+              <div class="overlay">Michael Cohen recorded Trump discussing payment to Playboy model – report</div>
+              <div class="overlay-dynamic">
+               <div class="text">The EU’s chief Brexit negotiator, Michel Barnier, has forensically picked apart Theresa May’s white paper after a meeting of the EU27...
+                  <br/><br/>
+                  <a href="#" class="btn btn-danger btn-sm white"><i class="fab fa-readme"></i> Continue reading</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+           <div class="col-sm-12 col-md p-3 ">
+            <div class="container-image-overlay">
+              <img src="images/image3.jpg" class="img-fluid">
+              <div class="overlay">Michael Cohen recorded Trump discussing payment to Playboy model – report</div>
+              <div class="overlay-dynamic">
+               <div class="text">The EU’s chief Brexit negotiator, Michel Barnier, has forensically picked apart Theresa May’s white paper after a meeting of the EU27...
+                  <br/><br/>
+                  <a href="#" class="btn btn-danger btn-sm  white"><i class="fab fa-readme"></i> Continue reading</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 p-5 text-center">
+            <h1><a href="#">Business and Politics</a><span class="tiny"><a href="#"><i class="fas fa-sync-alt"></i></a></span></h1>
+            <p></p>
+          </div>
+        </div>
+        <div class="row">
+           <div class="col-sm-12 col-md p-3 ">
+            <div class="container-image-overlay">
+              <img src="images/image3.jpg" class="img-fluid">
+              <div class="overlay">Michael Cohen recorded Trump discussing payment to Playboy model – report</div>
+              <div class="overlay-dynamic">
+               <div class="text">The EU’s chief Brexit negotiator, Michel Barnier, has forensically picked apart Theresa May’s white paper after a meeting of the EU27...
+                  <br/><br/>
+                  <a href="#" class="btn btn-danger btn-sm white"><i class="fab fa-readme"></i> Continue reading</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+            <div class="col-sm-12 col-md p-3 ">
+            <div class="container-image-overlay">
+              <img src="images/image3.jpg" class="img-fluid">
+              <div class="overlay">Michael Cohen recorded Trump discussing payment to Playboy model – report</div>
+              <div class="overlay-dynamic">
+               <div class="text">The EU’s chief Brexit negotiator, Michel Barnier, has forensically picked apart Theresa May’s white paper after a meeting of the EU27...
+                  <br/><br/>
+                  <a href="#" class="btn btn-danger btn-sm white"><i class="fab fa-readme"></i> Continue reading</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+           <div class="col-sm-12 col-md p-3 ">
+            <div class="container-image-overlay">
+              <img src="images/image3.jpg" class="img-fluid">
+              <div class="overlay">Michael Cohen recorded Trump discussing payment to Playboy model – report</div>
+              <div class="overlay-dynamic">
+               <div class="text">The EU’s chief Brexit negotiator, Michel Barnier, has forensically picked apart Theresa May’s white paper after a meeting of the EU27...
+                  <br/><br/>
+                  <a href="#" class="btn btn-danger btn-sm white"><i class="fab fa-readme"></i> Continue reading</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+           <div class="col-sm-12 col-md p-3 ">
+            <div class="container-image-overlay">
+              <img src="images/image3.jpg" class="img-fluid">
+              <div class="overlay">Michael Cohen recorded Trump discussing payment to Playboy model – report</div>
+              <div class="overlay-dynamic">
+               <div class="text">The EU’s chief Brexit negotiator, Michel Barnier, has forensically picked apart Theresa May’s white paper after a meeting of the EU27...
+                  <br/><br/>
+                  <a href="#" class="btn btn-danger btn-sm white"><i class="fab fa-readme"></i> Continue reading</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-sm-12 col-md p-3 ">
+            <div class="container-image-overlay">
+              <img src="images/image3.jpg" class="img-fluid">
+              <div class="overlay">Michael Cohen recorded Trump discussing payment to Playboy model – report</div>
+              <div class="overlay-dynamic">
+               <div class="text">The EU’s chief Brexit negotiator, Michel Barnier, has forensically picked apart Theresa May’s white paper after a meeting of the EU27...
+                  <br/><br/>
+                  <a href="#" class="btn btn-danger btn-sm white"><i class="fab fa-readme"></i> Continue reading</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+          <div class="row my-5">
+
+            <div class="col text-center p-5">
+
+              <a href="#" class="btn btn-outline-danger btn-lg"><h1 class="p-1"><i class="fas fa-sync-alt"></i> LOAD MORE</h1></a>
+
+            </div>
+
+          </div>
+
+      </div>
+    </section>
+
+    <section>
+      
+      <div class="container-fluid grey p-5">
+
+        <div class="container">
+
+          <div class="row">
+
+            <div class="col-md-4 col-sm-12 p-5">
+
+              <h2 class="mt-5">Keep in touch</h2>
+              <hr class="white" />
+
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+              <form class="py-3">
+                <div class="form-row">
+                  <div class="col-9">
+                    <input type="text" class="form-control form-control-lg" placeholder="Email">
+                  </div>
+                  <div class="col-3">
+                    <a href="#" class="btn btn-outline-danger btn-lg white"><i class="fas fa-user-plus"></i> Sign up</a>
+                  </div>
+                </div>
+              </form>
+
+              <div class="row mt-3">
+
+                <div class="col-md-2 col-sm-12">
+
+                  <a href="#" class="white"><i class="fab fa-facebook-square fa-4x"></i></a>
+
+                </div>
+
+                <div class="col-md-2 col-sm-12">
+                  <a href="#" class="white"><i class="fab fa-twitter-square fa-4x"></i></a>
+                </div>
+
+                <div class="col-md-2 col-sm-12">
+                  <a href="#" class="white"><i class="fab fa-vimeo fa-4x"></i></a>
+                </div>
+
+                <div class="col-md-2 col-sm-12">
+                  <a href="#" class="white"><i class="fab fa-youtube-square fa-4x"></i></a>
+                </div>
+
+                <div class="col-md-2 col-sm-12">
+                  <a href="#" class="white"><i class="fab fa-instagram fa-4x"></i></a>
+                </div>
+
+
+              </div>
+
+
+            </div>
+
+            <div class="col-md-2 col-sm-12 p-5">
+
+              <h5>Entertainment</h5>
+              <ul class="nav flex-column mt-5">
+                <li class="nav-item pb-1">
+                  <a class="nav-link active white underlineMe" href="#">Celebrity</a>
+                </li>
+                <li class="nav-item pb-1">
+                  <a class="nav-link white underlineMe" href="#">Gossip</a>
+                </li>
+                <li class="nav-item pb-1">
+                  <a class="nav-link white underlineMe" href="#">TV</a>
+                </li>
+                <li class="nav-item pb-1">
+                  <a class="nav-link white underlineMe" href="#">Films</a>
+                </li>
+                  <li class="nav-item pb-1">
+                  <a class="nav-link white underlineMe" href="#">Music</a>
+                </li>
+                  <li class="nav-item pb-1">
+                  <a class="nav-link white underlineMe" href="#">What to do</a>
+                </li>
+                  <li class="nav-item pb-1">
+                  <a class="nav-link white underlineMe" href="#">Entertainment Today</a>
+                </li>
+                  <li class="nav-item pb-1">
+                  <a class="nav-link white underlineMe" href="#">Editorials</a>
+                </li>
+
+              </ul>
+
+            </div>
+
+             <div class="col-md-2 col-sm-12 p-5">
+              <h5>Business</h5>
+   <ul class="nav flex-column mt-5">
+                <li class="nav-item pb-1">
+                  <a class="nav-link active white underlineMe" href="#">Breaking News</a>
+                </li>
+                <li class="nav-item pb-1">
+                  <a class="nav-link white underlineMe" href="#">The Markets</a>
+                </li>
+                <li class="nav-item pb-1">
+                  <a class="nav-link white underlineMe" href="#">Economics</a>
+                </li>
+                <li class="nav-item pb-1">
+                  <a class="nav-link white underlineMe" href="#">Cryptocurrencies</a>
+                </li>
+                  <li class="nav-item pb-1">
+                  <a class="nav-link white underlineMe" href="#">International Trade</a>
+                </li>
+                  <li class="nav-item pb-1">
+                  <a class="nav-link white underlineMe" href="#">Brexit</a>
+                </li>
+                  <li class="nav-item pb-1">
+                  <a class="nav-link white underlineMe" href="#">City of London</a>
+                </li>
+                  <li class="nav-item pb-1">
+                  <a class="nav-link white underlineMe" href="#">European Union</a>
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="col-md-2 col-sm-12 p-5">
+
+              <h5>Politics</h5>
+
+                <ul class="nav flex-column mt-5">
+                <li class="nav-item pb-1">
+                  <a class="nav-link active white underlineMe" href="#">Breaking News</a>
+                </li>
+                <li class="nav-item pb-1">
+                  <a class="nav-link white underlineMe" href="#">Brexit</a>
+                </li>
+                <li class="nav-item pb-1">
+                  <a class="nav-link white underlineMe" href="#">Parliament</a>
+                </li>
+                <li class="nav-item pb-1">
+                  <a class="nav-link white underlineMe" href="#">Labour</a>
+                </li>
+                  <li class="nav-item pb-1">
+                  <a class="nav-link white underlineMe" href="#">Conservatives</a>
+                </li>
+                  <li class="nav-item pb-1">
+                  <a class="nav-link white underlineMe" href="#">Lib Dems</a>
+                </li>
+                  <li class="nav-item pb-1">
+                  <a class="nav-link white underlineMe" href="#">UKIP</a>
+                </li>
+                  <li class="nav-item pb-1">
+                  <a class="nav-link white underlineMe" href="#">NHS</a>
+                </li>
+
+              </ul>
+
+            </div>
+
+             <div class="col-md-2 col-sm-12 p-5">
+
+              <h5>Sports</h5>
+
+                <ul class="nav flex-column mt-5">
+                <li class="nav-item pb-1">
+                  <a class="nav-link white underlineMe" href="#">Football</a>
+                </li>
+                <li class="nav-item pb-1">
+                  <a class="nav-link white underlineMe" href="#">Racing</a>
+                </li>
+                <li class="nav-item pb-1">
+                  <a class="nav-link white underlineMe" href="#">Cricket</a>
+                </li>
+                <li class="nav-item pb-1">
+                  <a class="nav-link white underlineMe" href="#">Rugby</a>
+                </li>
+                  <li class="nav-item pb-1">
+                  <a class="nav-link white underlineMe" href="#">Athletics</a>
+                </li>
+                  <li class="nav-item pb-1">
+                  <a class="nav-link white underlineMe" href="#">Cycling</a>
+                </li>
+                  <li class="nav-item pb-1">
+                  <a class="nav-link white underlineMe" href="#">Swimming</a>
+                </li>
+                  <li class="nav-item pb-1">
+                  <a class="nav-link white underlineMe" href="#">eSports</a>
+                </li>
+
+              </ul>
+
+            </div>
+
+
+        
+
+
+          </div>
+
+          <div class="row">
+
+            <div class="col p-2">
+
+              <p class="ml-4"><small>© 2018 Bywire News or its affilated publishers. All rights reserved.</small></p>
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+
+      </div>
+
+
+
+
+    </section>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      //VIDEO PLAY PAUSE
+      
+      // Get the video
+      var video = document.getElementById("myVideo");
+      
+      // Get the button
+      var btn = document.getElementById("myBtn");
+      
+      // Pause and play the video, and change the button text
+      function myFunction() {
+      if (video.paused) {
+        video.play();
+        btn.innerHTML = "Pause";
+      } else {
+        video.pause();
+        btn.innerHTML = "Play";
+      }
+      }
+      
+      
+      
+    </script>
+  </body>
+</html>
